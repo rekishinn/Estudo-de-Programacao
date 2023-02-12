@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tamanhos e textos</title>
+        <meta charset='utf-8'>
+
+        <style type="text/css">
+
+            div {font-size: 60px;}
+
+            /* .texto {font-size: 100%;} tamanho padrão: 16px */
+            .texto {font-size: 1em;} /* em correspondente ao container pai, ou seja nesse caso: a div 60px. mas pode ser o body tbm */
+
+            .texto2 {font-size: 15px;} /* tem prioridade acima do container pai */
+            
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <p class="texto">Conteudo 1</p>
+            <p class="texto2">Conteudo 2</p>
+        </div>
+    </body>
+</html>

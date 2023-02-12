@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <title>Registrar</title>
+      <meta charset="utf-8">  
+    </head>
+
+    <body>
+
+        <h1>Registro</h1>
+        <form action="processamento.php">
+
+            Login:<br>
+            <input type="text" name="logindata"><br><br>
+            Senha:<br>
+            <input type="password" name="senhadata"><br><br>
+
+            sexo:<br>
+            <input type="radio" name="sexodata" value="M"> Masculino<br>
+            <input type="radio" name="sexodata" value="F"> Feminino<br><br>
+
+            Interesses:<br>
+            <input type="checkbox" name="interessesdata"> Futebol<br>
+            <input type="checkbox" name="interessesdata"> Cursos<br>
+            <input type="checkbox" name="interessesdata"> Moda<br><br>
+
+            Estado:<br>
+            <select name="estadodata">
+                <option value="sp">SP</option>
+                <option value="mg">MG</option>
+                <option value="rj">RJ</option>
+                <option value="rs">RS</option>
+            </select><br><br>
+
+            Observações:<br>
+            <textarea></textarea><br><br>
+            
+            <input type="submit" value="cadastro">
+        </form>
+
+    </body>
+</html>

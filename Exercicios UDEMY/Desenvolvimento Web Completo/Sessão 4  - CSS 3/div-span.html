@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Divs e Span</title>
+    <meta charset='utf-8'>
+
+    <style type="text/css">
+
+        #topo {background: rgb(43, 43, 70)}
+        #conteudo {background: rgb(26, 26, 26)}
+        #rodape {background: black}
+        .texto {color: whitesmoke}
+        .produto {background: grey; margin: 10px}
+        .destaque {color:aqua}
+
+    </style>
+
+</head>
+<body>
+
+    <div id="topo">
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png" width="100">
+        <ul class="texto">
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+
+    <div id="conteudo" class="texto">
+        <div class="produto">
+            Produto 1
+        </div>
+        <div class="produto">
+            Produto 2
+        </div>
+        <div class="produto">
+            Produto 3
+        </div>
+    </div>
+
+    <span id="rodape" class="texto">
+        Todos os direitos
+    </span>
+
+    <span id="rodape" class="texto">
+        reservados.
+    </span>
+
+    <hr>
+
+    <div id="rodape" class="texto">
+        Todos os direitos
+    </div>
+
+    <div id="rodape" class="texto">
+        reservados.
+    </div>
+
+    <hr>
+
+    <div id="rodape" class="texto">
+        Todos os direitos <span class="destaque">reservados.</span>
+    </div>
+    
+</body>
+</html>
