@@ -1,4 +1,4 @@
-public class App {
+public class App2 {
     public static void main(String[] args) { 
 
         Aluno_EnsinoMedio alunoEnsinoMedio = new Aluno_EnsinoMedio();

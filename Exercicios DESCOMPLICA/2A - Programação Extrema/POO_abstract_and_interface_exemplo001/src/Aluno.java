@@ -1,4 +1,4 @@
-public class Aluno extends Pessoa {
+public abstract class Aluno extends Pessoa implements Media {
     
     double teste, prova;
 
@@ -18,6 +18,6 @@ public class Aluno extends Pessoa {
         return this.prova;
     }
 
-
+    public abstract double getMedia();
 
 }

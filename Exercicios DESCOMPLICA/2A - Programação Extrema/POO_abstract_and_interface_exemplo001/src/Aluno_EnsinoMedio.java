@@ -1,6 +1,6 @@
 public class Aluno_EnsinoMedio extends Aluno {
 
-    double getMedia() {
+    public double getMedia() {
         return (teste + prova)/2;
     }
 }
