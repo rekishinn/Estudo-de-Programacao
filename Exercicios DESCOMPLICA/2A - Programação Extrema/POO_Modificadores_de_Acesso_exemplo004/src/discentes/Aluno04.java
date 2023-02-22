@@ -1,6 +1,6 @@
 package discentes;
 
-public class Aluno {
+public class Aluno04 {
 
     String nome; //assumindo como default(padrão)
     double teste, prova; //assumindo como default(padrão)

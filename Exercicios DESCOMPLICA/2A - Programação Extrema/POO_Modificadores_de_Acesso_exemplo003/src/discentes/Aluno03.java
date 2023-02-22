@@ -1,6 +1,6 @@
 package discentes;
 
-public class Aluno {
+public class Aluno03 {
 
         private String nome;
         protected double teste, prova; //só pode ser acessado aqui e em seus filhos (por exemplo: AlunoSuperior) 
