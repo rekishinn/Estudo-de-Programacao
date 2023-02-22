@@ -1,22 +1,27 @@
 public class App {
     public static void main(String[] args) { 
 
-        Aluno aluno = new Aluno();
-        Professor professor = new Professor();
+        Aluno_EnsinoMedio alunoEnsinoMedio = new Aluno_EnsinoMedio();
+        Aluno_EnsinoSuperior alunoEnsinoSuperior = new Aluno_EnsinoSuperior();
 
-        aluno.setNome("Oswaldo"); //setNome "setta" o atributo
-        aluno.teste = 9;
-        aluno.prova = 10;
+        alunoEnsinoMedio.setNome("Jose");
+        alunoEnsinoMedio.teste = 8;
+        alunoEnsinoMedio.prova = 9;
 
-        System.out.println(aluno.getNome()); //getNome "puxa" o atributo
-        System.out.println(aluno.getMedia());
+        System.out.println("Aluno do Ensino Médio: ");
+        System.out.println(alunoEnsinoMedio.getNome());
+        System.out.println(alunoEnsinoMedio.getMedia());
 
-        professor.setNome("Carlos");
-        professor.setSalario(1000);
+        
 
-        System.out.println(professor.getNome());
-        System.out.println(professor.getInss());
-        System.out.println(professor.getSalarioLiquido());
+
+        alunoEnsinoSuperior.setNome("Jose");
+        alunoEnsinoSuperior.teste = 8;
+        alunoEnsinoSuperior.prova = 9;
+
+        System.out.println("Aluno do Ensino Superior: ");
+        System.out.println(alunoEnsinoSuperior.getNome());
+        System.out.println(alunoEnsinoSuperior.getMedia());
 
     }
 }
