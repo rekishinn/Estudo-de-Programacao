@@ -7,7 +7,7 @@ public class App {
         objeto.teste = 9;
         objeto.prova = 10;
 
-        System.out.println(objeto.obterMedia());
+        System.out.println(objeto.getMedia());
 
 
     }

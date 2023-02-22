@@ -1,9 +1,9 @@
-import discentes.AlunoSuperior;
+import discentes.AlunoSuperior02;
 
-public class App {
+public class App02 {
     public static void main(String[] args) {
 
-        AlunoSuperior  aluno = new AlunoSuperior();
+        AlunoSuperior02  aluno = new AlunoSuperior02();
 
          //aluno.nome="Oswaldo"; //dá erro, pois o parametro é privado e não pode ser acessado.
          aluno.setNome("Oswaldo");

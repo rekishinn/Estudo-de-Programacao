@@ -1,9 +1,9 @@
-import discentes.AlunoSuperior;
+import discentes.AlunoSuperior03;
 
-public class App {
+public class App03 {
     public static void main(String[] args) {
 
-        AlunoSuperior  aluno = new AlunoSuperior();
+        AlunoSuperior03  aluno = new AlunoSuperior03();
 
          //aluno.nome="Oswaldo";
          aluno.setNome("Oswaldo");

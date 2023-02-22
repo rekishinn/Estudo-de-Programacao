@@ -1,9 +1,9 @@
-import discentes.AlunoSuperior;
+import discentes.AlunoSuperior01;
 
-public class App {
+public class App01 {
     public static void main(String[] args) {
 
-        AlunoSuperior  aluno = new AlunoSuperior();
+        AlunoSuperior01  aluno = new AlunoSuperior01();
 
          aluno.nome="Oswaldo"; //consigo acessar nome, teste e prova de outra classe, pois o parametro é publica.
          aluno.teste = 9;

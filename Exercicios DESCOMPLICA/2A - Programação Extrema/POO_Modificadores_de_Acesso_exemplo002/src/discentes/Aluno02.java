@@ -1,6 +1,6 @@
 package discentes;
 
-public class Aluno {
+public class Aluno02 {
 
         private String nome;
         private double teste, prova; //pode ser acessado em qualquer outra classe
