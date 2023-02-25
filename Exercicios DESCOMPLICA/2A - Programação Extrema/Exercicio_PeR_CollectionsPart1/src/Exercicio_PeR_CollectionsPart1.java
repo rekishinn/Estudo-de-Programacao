@@ -6,10 +6,11 @@ import java.util.Scanner;
 public class Exercicio_PeR_CollectionsPart1 {
     public static void main(String[] args) {
 
-        int numero; //crio uma variavel inteiro
+        int numero = 0; //crio uma variavel inteiro
         
         ArrayList<Integer> numeroLista = new ArrayList<>(); //crio um vetor chamado numeroLista
-            Scanner input = new Scanner(System.in); //dou comando de leitura
+            try (Scanner input = new Scanner(System.in)) {
+            }
         
 
         System.out.println("Digite um número inteiro: "); //mensagem
