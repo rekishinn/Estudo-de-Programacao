@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class excessões_exemplo002{
+public class exceções_exemplo002{
     public static void main(String[] args){
         
         try (Scanner scanner = new Scanner(System.in)) {

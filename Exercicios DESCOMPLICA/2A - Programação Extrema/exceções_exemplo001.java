@@ -1,4 +1,4 @@
-public class excessões_exemplo001{
+public class exceções_exemplo001{
     public static void main(String[] args){
         
        try {
