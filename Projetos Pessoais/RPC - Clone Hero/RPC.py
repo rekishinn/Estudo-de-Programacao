@@ -1,10 +1,10 @@
 from pypresence import Presence
 import time
 
-musictime = 120
-songname = "Engenheiros do Hawaii - Nunca Mais Poder"
+musictime = 60
+songname = "exemplo - exemplo"
 
-client_id = "1001680490887123074"
+client_id = ""
 RPC = Presence(client_id)
 RPC.connect()
 
