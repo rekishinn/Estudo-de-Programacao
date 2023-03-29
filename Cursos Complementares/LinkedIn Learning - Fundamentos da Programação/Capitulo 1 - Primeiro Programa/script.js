@@ -1,0 +1,1 @@
+alert("Olá mundo!"); //exibe na tela do usuário o texto em forma de popup
