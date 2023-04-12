@@ -1,0 +1,29 @@
+body { /* em todo o body ele vai aplicar esse estilo */
+    background:#d2d2c1 url('imagens/fundo.png'); /* caso a imagem nao for detectada, vai ter a cor de fundo */
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#principal { /* no id principal vai ser aplicado esse estilo */
+    width: 900px; /* limitando a borda até 900px de largura */
+}
+
+#menu {
+    background: #c5c5b2;
+    padding: 18px; /* cria um espaçamento */
+}
+
+#conteudo {
+    background: #e8e8d9;
+    padding: 10px;
+}
+
+a {
+    color: #4b566a;
+    text-decoration: none; /* remove o underline do link */
+    font-weight: bold;
+    padding: 5px; /* cria um espaçamento */
+}
+
+.centralizar { /* essa classe vai centralizar tudo q estiver com essa class */
+    text-align: center;
+}
