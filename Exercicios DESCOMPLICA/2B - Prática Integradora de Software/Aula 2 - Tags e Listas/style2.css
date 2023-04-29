@@ -1,0 +1,4 @@
+/* retira o ponto da lista, mas pode ser modificado tbm */
+.list {
+    list-style: none;
+}

@@ -6,3 +6,19 @@
 p {
     font-size: 35px;
 }
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-justify {
+    text-align: justify;
+} /* faz o texto se ajustar a pagina ou ao tamanho do bloco de texto */
