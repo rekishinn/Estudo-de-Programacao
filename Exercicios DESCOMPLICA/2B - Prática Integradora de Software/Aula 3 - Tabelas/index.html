@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabelas</title>
+</head>
+<body>
+
+    <table>
+
+        <thead> <!-- consiste basicamente nos titulos das colunas -->
+            <tr> <!-- são as linhas da tabela -->
+                <th>id</th> <!-- corresponde a uma célula da tabela, nesse caso "th" corresponde a um titulo -->
+                <th>nome</th>
+                <th>quantidade</th>
+            </tr>
+        </thead>
+
+        <tbody> <!-- aqui é conteudo das células -->
+            <tr>
+                <td>id</td> <!-- nesse caso, o uso do "td" é por ele ser um conteudo da coluna -->
+                <td>produto 1</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+
+        <tfoot> <!-- serve basicamente pra o rodapé da tabela -->
+            <tr>
+                <td colspan="2">quantidade</td> <!-- colspan vai fazer com que "quantidade" ocupe duas colunas, caso queira ocupar 2 linhas: usar rowspan -->
+                <td>2</td>
+            </tr>
+        </tfoot>
+
+    </table>
+    
+</body>
+</html>
