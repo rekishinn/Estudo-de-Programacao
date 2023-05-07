@@ -13,7 +13,7 @@
             <input id="assunto" name="assunto" type="text"> <!--bloco que aceita qualquer tipo de caractere -->
             <input id="senha" name="senha" type="password"> <!--bloco de senha, colocando **** no lugar da senha-->
             <input id="idade" name="idade" type="number"> <!--bloco que aceita apenas números-->
-            <input id="email" name="email" type="email"> <!--bloco que especifica que oq deve ser inserido seja um email (com @ e .com)-->
+            <input id="email" name="email" type="email"> <!--bloco que especifica que oq deve ser inserido seja um email (com (valor alfanumerico) + @ + provedor de email + sufixo ex.: a_1@a.com)-->
             <input id="dataNascimento" name="dataNascimento" type="date"> <!--bloco de data, com calendario incluso (a ordem pode ser difernte dependendo do idioma do sistema)-->
             <input id="corFavorita" name="corFavorita" type="collor"> <!--bloco de cor, com um seletor de cores-->
 
@@ -23,18 +23,31 @@
 
             <!--é importante definir um id e um name para cada input, para que ele seja atribuido a algo e seja chamado posteriormente-->
             <br>
-            
+
         <fieldset>
 
             <select name="avaliacao" id="avaliacao"> <!--cria uma bloco de selação de opções-->
+
                 <option value="neutro">Prefiro não informar</option>
                 <option value="elogio">Aula legal</option>
                 <option value="reclamacao">Aula péssima</option>
 
                 <option selected value="default">Avalie!</option> <!--selected define qual opção será mostrada por padrão-->
+
             </select>
 
         </fieldset>
+
+        <fieldset>
+
+            <label for="arquivo">Me envie seu arquivo!!</label> <!--apresenta uma legenda pra o usuário-->
+            <input id="arquivo" name="arquivo" type="file"> <!--um campo para upload de arquivos-->
+            <input id="arquivo" name="arquivo" type="file" multiple> <!--permite q seja enviado vários arquivos-->
+
+            <input type="hidden" name="valor" value="valor"> <!--um campo que não será mostrado para o usuário, usado normalmente pra controle no banco de dados-->
+
+        </fieldset>
+
     </form>
     
 </body>
