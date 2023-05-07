@@ -1,0 +1,17 @@
+body {
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.corpoDoTexto {
+    color: blue;
+}
+
+.corpoDoTexto2 {
+    color: red;
+}
