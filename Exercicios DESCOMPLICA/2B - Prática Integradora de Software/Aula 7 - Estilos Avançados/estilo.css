@@ -1,0 +1,28 @@
+.texto {
+    font-family:'Times New Roman', Times, serif; /*define a fonte a ser utilizada, testando se a fonte está disponivel na maquina da esquerda para a direita*/
+    font-size: 150%; /*define o tamanho do texto, podendo ser em px, porcentagem, etc*/
+    font-weight: 500; /*define o peso da fonte ou "grossura"*/
+    font-style: normal; /*define o estilo da fonte: bold, italic, etc*/
+    text-align: center; /*centraliza o texto*/
+    text-decoration: underline wavy red; /*cria uma linha abaixo do texto com efeito ondulado e vermelho. */
+    letter-spacing: 15px; /*espaça as letras do texto*/
+    text-shadow: 10px 10px 1px black; /*cria uma sombra no texto, com parametros x (horizontal), y (vertical), valor do blur e cor*/
+}
+
+.navbar {
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_button {
+
+}
+
+.search_button {
+
+}
+
+.logo {
+
+}
